@@ -1,3 +1,4 @@
+
 -- Sample data for Tasks 8 to 11
 USE hbnb_dev_db;
 INSERT INTO states(id, created_at, updated_at, name) VALUES
