@@ -176,6 +176,7 @@
     + Make sure you have a running and valid [setup_mysql_dev.sql](../setup_mysql_dev.sql).
     + Make sure all tables are created when you run `echo "quit" | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py`.
 
+
 + [x] 12. HBNB is alive!<br/>_**[100-hbnb.py](100-hbnb.py)**_ contains a script that starts a Flask web application.
   + Your web application must be listening on `0.0.0.0`, port `5000`.
   + You must use `storage` for fetching data from the storage engine (`FileStorage` or `DBStorage`) => `from models import storage` and `storage.all(...)`.
